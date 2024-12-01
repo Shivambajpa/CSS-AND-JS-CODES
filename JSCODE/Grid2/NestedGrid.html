@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .Container {
+
+        background-color: aqua;
+        margin: 45px 0 auto;
+        display: grid;
+        width: 700px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 150px);
+        background-color: black;
+        grid-gap: 10px;
+    }
+
+    .itema1 {
+
+        background-color: bisque;
+    }
+
+    .itema2 {
+
+
+        background-color: blue;
+    }
+
+    .itema3 {
+
+        background-color: gold;
+        display: grid;
+        grid-template-columns: 1fr 150px 100px;
+        color: aliceblue;
+        grid-gap: 10px;
+
+    }
+
+    .itema3>div {
+
+        background-color: #9c3030;
+    }
+
+    .itema4 {
+
+
+        background-color: lawngreen;
+    }
+
+    .itema5 {
+        background-color: lightgoldenrodyellow;
+    }
+
+    .itema6 {
+
+        background-color: mediumvioletred;
+    }
+</style>
+
+<body>
+    <div class="Container">
+        <div class="class itema1">one</div>
+        <div class="class itema2">two</div>
+        <div class="class itema3">
+            <div class="subitems">one</div>
+            <div class="subitems">two</div>
+            <div class="subitems">three</div>
+        </div>
+        <div class="class itema4">four</div>
+        <div class="class itema5">Fifth</div>
+        <div class="class itema6">Six</div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+.box {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border: 10px solid yellowgreen;
+    /* position: relative;
+    right: 20px;
+    right: -200px;
+    /* right: -500px; */
+    /* left: 200px; */
+    /* top: -200px; */
+    /* right: 40px;
+    right: 20px; */
+
+    /* position: absolute; */
+
+    /* right: 800px;
+    right: -100px4;
+    top: 40px;
+    top: 40px;
+    left: 800px;
+    left: -200px; */
+
+    /* position: fixed; */
+    /* left: 30px;
+    left: -30px;
+    left: 40px;
+    top: 40px; */
+    /* top: -50px; */
+    /* right: 400px; */
+    /* right: -50px; */
+    /* position: static;
+    left: 200px;
+    right: 200px;
+    top: 30px;
+    bottom: 52px; */
+    /* position: sticky;
+    left: 50px;
+    top: 50px; */
+    /* position: absolute; */
+    /* left: 0px; */
+    /* right: 0px; */
+    /* top: 0px; */
+    /* bottom: 0px; */
+    /* bottom: -20px; */
+
+    /* 
+    position: relative;
+    right: -200px;
+    left: 400px;
+    bottom: -120px;
+    bottom: 30px; */
+
+    /* position: absolute;
+    right: -500px;
+    left: 200px;
+    top: 500px;
+    top: -300px;
+    right: 200px;
+    right: -400px;
+    bottom: -500px; */
+    /* position: fixed; */
+    /* right: 700px;
+    left: 500px;
+    top: 500px;
+    bottom: 600px;
+    bottom: -100px; */
+
+
+
+}
+
+.kill {
+
+    background-color: bisque;
+    width: 150px;
+    height: 150px;
+    border: 10px solid green;
+    margin: 20px;
+
+    position: sticky;
+    top: -50px;
+    left: 900px;
+    position: relative;
+    position: static;
+    left: 500px;
+    right: 500px;
+
+}
+
+.box1 {
+
+    background-color: aquamarine;
+    border: 5px solid greenyellow;
+    width: 500px;
+    height: 500px;
+
+
+}

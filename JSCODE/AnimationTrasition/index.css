@@ -1,0 +1,52 @@
+.indu {
+    width: 200px;
+    height: 200px;
+    background-color: darkred;
+    border: 5px solid gray;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    transition: 1s;
+    transition-duration: 1s;
+    /* transition-property: border-radius;
+    transition-property: background-color; */
+    transition-property: border-radius, backround-color;
+    transition-property: all;
+    transition-property: backgroud-color, border-radius, transform;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    /* transition-timing-function: cubic-bezier(0.95, -0.2, 0.58, 1); */
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.95, -0.2, 0.58, 1);
+}
+
+.indu:hover {
+    /* background-color: darkgreen;
+    border-radius: 500px;
+    transform: rotate(180deg); */
+    transform: scale(1.2);
+
+
+}
+
+.list-item {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.item:hover {
+
+    cursor: pointer;
+    background-color: rgb(123, 33, 48);
+    color: white;
+    transform: translateY(-10px);
+}
+
+.item {
+
+    font-size: 3rem;
+    padding: 8px 10px;
+    transition: 0.3s ease-in;
+}

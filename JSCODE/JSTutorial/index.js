@@ -1,0 +1,11 @@
+console.log("mr shivam");
+console.log("shivam bajpai");
+console.log("my name is shivam bajpai");
+console.log("hello world");
+console.log("hello world");
+age = 24;
+print(age);
+fullName = "shivam bajpai";
+console.log(fullName);
+Sum = 12554;
+console.log(Sum);

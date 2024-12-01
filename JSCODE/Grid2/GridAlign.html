@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .Pop {
+
+        background-color: #fff;
+        display: grid;
+        width: 620px;
+        margin: 74px auto 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 120px);
+        grid-gap: 15px;
+        grid-auto-rows: 80px;
+        grid-auto-flow: row;
+        grid-auto-columns: .5fr;
+        /* align-items: center;
+        align-items: start;
+        align-items: end;
+        align-items: center;
+        align-items: baseline;
+        align-items: self-end;
+        align-items: stretch;
+        justify-items: center;
+        justify-items: end;
+        justify-items: start;
+        justify-content: baseline;
+        justify-items: center; */
+        /* justify-items: self-start;
+        justify-items: self-start; */
+        /* place-items: center start;
+        place-items: center center; */
+        /* place-items: start center; */
+
+
+    }
+
+    .item1 {
+        background-color: rebeccapurple;
+        /* align-self: center;
+        align-self: end; */
+        /* place-self: end; */
+
+    }
+
+    .item2 {
+        background-color: red;
+        /* justify-self: end; */
+    }
+
+    .item3 {
+
+        background-color: aqua;
+
+        /* grid-row: span 2; */
+    }
+
+    .item4 {
+
+        background-color: yellow;
+    }
+
+    .item5 {
+        background-color: burlywood;
+    }
+
+    .item6 {
+
+        background-color: blue;
+        /* grid-column: span 2; */
+    }
+</style>
+
+
+<body>
+
+
+    <DIV>
+        <h1>align item and align self work for giving align in vertical</h1>
+        <h1>justify item and justify-self self work for giving align in horzontall</h1>
+        <h1>Place item and place self is use for combination of align items and justyfy items</h1>
+
+    </DIV>
+    <div class="Pop">
+
+
+        <div class="items item1">First</div>
+        <div class="items item2">Second</div>
+        <div class="items item3">Third</div>
+        <div class="items item4">Fourth</div>
+        <div class="items item5">Fifth</div>
+        <div class="items item6">Sixth</div>
+        <div class="items item5">Fifth</div>
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

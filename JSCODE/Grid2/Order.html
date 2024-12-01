@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .Container {
+
+
+        background-color: darkorange;
+        width: 650px;
+        min-height: 400px;
+        display: grid;
+        grid-template-rows: repeat(3, 100px);
+        grid-template-columns: 200px 300px;
+        margin: 50px auto 0;
+
+    }
+
+    .itema1 {
+
+        background-color: brown;
+        order: 2;
+    }
+
+    .itema2 {
+
+        background-color: rgb(114, 42, 165);
+        order: 4;
+
+    }
+
+    .itema3 {
+
+        background-color: rgb(165, 42, 130);
+        grid-auto-rows: 80px;
+        order: 6;
+    }
+
+    .itema4 {
+
+        background-color: rgb(142, 165, 42);
+        order: 3;
+
+    }
+
+    .itema5 {
+
+        background-color: gold;
+        order: 1;
+
+    }
+
+    .itema6 {
+
+        background-color: rgb(83, 42, 165);
+        order: 5;
+
+    }
+</style>
+
+<body>
+    <h1>Today we will learn how to use Fit Content</h1>
+
+    <div class="Container">
+        <div class="class itema1">one</div>
+        <div class="class itema2">two</div>
+        <div class="class itema3">three</div>
+        <div class="class itema4">four</div>
+        <div class="class itema5">Fifth</div>
+        <div class="class itema6">Six</div>
+
+
+    </div>
+</body>
+
+</html>

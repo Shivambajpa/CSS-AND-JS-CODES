@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .mainbox {
+
+
+            background-color: blue;
+            color: white;
+            padding: var(--defpad);
+            margin: 20px;
+            border: 20px solid var(--color);
+            opacity: var(--defop);
+        }
+
+        ul li {
+
+            list-style: none;
+            display: flex;
+            margin: var(--defmar);
+            padding: 20px;
+            color: rgb(72, 0, 255);
+            background-color: deeppink;
+            font: bold;
+        }
+
+        ul {
+
+            display: flex;
+            gap: 20px;
+        }
+
+        :root {
+
+
+            --color: #047535;
+            --seccolor: rgb(132, 26, 109);
+            --defpad: 300px;
+            --defop: 0.1;
+            --defmar: 30px;
+        }
+
+        .Contant {
+
+            border: 5px solid var(--seccolor);
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="Contant">
+        <ul>
+            <li>Home</li>
+            <li>Email</li>
+            <li>Contact</li>
+            <li>Address</li>
+        </ul>
+    </div>
+
+    <div class="mainbox">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quos voluptatem deleniti est quas porro, ipsam
+        saepe, voluptates repellat voluptas consectetur architecto. Ut ea nesciunt cupiditate temporibus est repellendus
+        veritatis.
+    </div>
+
+</body>
+
+</html>

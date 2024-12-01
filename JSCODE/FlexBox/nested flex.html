@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .firstContainer {
+        width: 400px;
+        height: 200px;
+        background-color: coral;
+        border: 4px solid blue;
+        display: flex;
+        flex-direction: column;
+
+
+
+
+
+
+    }
+
+    .items {
+
+
+        height: 100px;
+
+        text-align: center;
+    }
+
+
+    .ll1 {
+        background-color: red;
+    }
+
+    .ll2 {
+
+
+
+
+
+
+
+        background-color: blueviolet;
+        display: flex;
+    }
+
+    .ll2>.subitem {
+        color: blue;
+
+        background: wheat;
+        flex-grow: 1;
+        margin: 4px;
+
+
+    }
+
+    .ll3 {
+
+        background-color: deeppink;
+    }
+
+    .ll4 {
+
+
+        background-color: darkslategrey;
+    }
+</style>
+
+<body>
+    <h1>today we will learn nested flex</h1>
+    <div class="firstContainer">
+        <div class="ll1    items">second</div>
+        <div class="ll2      items">
+            <subitems class="subitem    subitem1">a</subitems>
+            <subitems class=" subitem     subitem2">b</subitems>
+            <subitems class="subitem      subitem3">c</subitems>
+        </div>
+
+        <div class="ll3        items">fourth</div>
+        <div class="ll4         items">fivtyh</div>
+    </div>
+
+
+
+</body>
+
+</html>

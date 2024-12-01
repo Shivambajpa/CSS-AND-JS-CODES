@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+
+        background-color: aquamarine;
+        width: 80%;
+        margin: 45px 0 auto;
+        border: 2px solid red;
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill, 100px);
+        grid-template-rows: repeat(2, 100px); */
+
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-rows: repeat(2, 100px);
+    }
+
+    .itema1 {
+        background-color: blueviolet;
+    }
+
+    .itema2 {
+
+        background-color: bisque;
+    }
+
+    .itema3 {
+        background-color: coral;
+        grid-auto-flow: row;
+        height: 100px;
+
+    }
+
+    .itema4 {
+        background-color: dodgerblue;
+        /* grid-column-end: -1; */
+        grid-auto-flow: row;
+        height: 100px;
+
+
+    }
+</style>
+
+<body>
+    <h1>Today we will learn Auto fill and Auto fit</h1>
+    <div class="container">
+        <div class="class itema1">one</div>
+        <div class="class itema2">two</div>
+        <div class="class itema3">three</div>
+        <div class="class itema4">four</div>
+    </div>
+
+
+
+</body>
+
+</html>

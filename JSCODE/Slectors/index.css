@@ -1,0 +1,99 @@
+body {
+
+
+    font-size: 50px;
+    background-color: green;
+    font-display: 14px;
+
+}
+
+span {
+    font-size: larger;
+    color: aquamarine;
+}
+
+/* element selector */
+#first,
+#second {
+    color: rgb(167, 108, 32);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* grouping selector */
+
+.indu {
+    color: blanchedalmond;
+    font-family: monospace;
+}
+
+/* classs  selector */
+.hilight {
+    background-color: darkorchid;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: dotted;
+    border: 5px solid red;
+    font-style: italic;
+
+
+}
+
+* {
+
+    font-family: fantasy;
+    font-style: italic;
+}
+
+/* Universal selector */
+
+
+#third {
+
+    border-color: aqua;
+    border: 5px;
+    color: blue;
+}
+
+/* id selector */
+
+
+
+#color,
+p {
+    color: cornflowerblue !important;
+}
+
+
+#land>h2,
+h1 {
+
+    color: crimson;
+
+}
+
+/* Nested selector */
+
+
+
+
+p:hover {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* sudo selecter */
+
+
+.pop {
+
+    text-decoration: line-through;
+    color: darkviolet;
+    font-size: large;
+}
+
+.hop {
+
+
+    font-size: 80px;
+    color: brown;
+}

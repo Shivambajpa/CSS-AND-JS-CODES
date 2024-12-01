@@ -1,0 +1,15 @@
+*{
+
+
+
+    border: 2px solid red;
+    pad: 10px;
+    color: pink;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    width: 50%;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .Container {
+
+
+            width: 720px;
+            margin: 45px auto 0;
+            background-color: rgb(35, 113, 113);
+            font-weight: bold;
+            display: grid;
+            border: 10px solid black;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-rows: 120px 60px 100px 400px 50px;
+            grid-gap: 15px;
+
+            grid-template-areas: "header header . "
+                "Menubar   Menubar  Menubar"
+                "box1 box2 sidebar"
+
+                "ContentBar  ContentBar Sidebar"
+                "footer   footer footer"
+            ;
+        }
+
+        .class-numbers1 {
+
+            background-color: bisque;
+            grid-area: header;
+        }
+
+        .class-numbers2 {
+
+            background-color: rgb(121, 17, 108);
+            grid-area: Menubar;
+
+        }
+
+        .class-numbers3 {
+
+            background-color: grey;
+            grid-area: box1;
+
+        }
+
+        .class-numbers4 {
+
+            background-color: rgb(48, 193, 255);
+            grid-area: box2;
+
+        }
+
+        .class-numbers5 {
+
+            background-color: rgb(42, 165, 42);
+            grid-area: Sidebar;
+
+        }
+
+        .class-numbers6 {
+
+            background-color: rgb(130, 83, 17);
+            grid-area: ContentBar;
+
+        }
+
+        .class-numbers7 {
+
+            background-color: rgb(51, 18, 101);
+            grid-area: footer;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Naming Grid Area</h1>
+    <div class="Container">
+        <div class="class-numbers1     don">Header</div>
+        <div class="class-numbers2    don">Menu</div>
+        <div class="class-numbers3      don">Box1</div>
+        <div class="class-numbers4      don">Box 2</div>
+        <div class="class-numbers5     don">SideBar</div>
+        <div class="class-numbers6     don">Content</div>
+        <div class="class-numbers7     don">Footer</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+ p{
+ border: 10px double grey ;
+    width: 20%;
+    height: 500px;
+    background-color: darkmagenta;
+}
+html {
+
+    font-size: 30px;
+}
+#box{
+border: 2px solid black;
+width: 500px;
+height: 600px;   
+font-size: 10px; 
+}
+#box1 {
+border: 2px solid black;
+background-color: chartreuse;
+width: 4rem;
+height: 400px;
+font-size: 2em;
+} 
+/* this is called percentage unit . it depends on our parents . it comes in relative units. */
+#indu{
+    font-size: 1rem; 
+ } 
+body{
+    margin: 0;
+}
+
+#shivam{
+font: 5px;
+width: 600px;
+height: 600px;
+border: 2px solid blueviolet;
+background-color: darkblue;
+
+} 
+#indushivam{
+font-size: 10px;
+border: 5px solid orange;
+height: 50vmin;
+width: 50vmin;
+
+}
